@@ -1,0 +1,234 @@
+body{
+	font-family: "Microsoft YaHei";
+	background-color: #fff;}
+html11 { 
+        -webkit-filter: grayscale(100%); 
+        -moz-filter: grayscale(100%); 
+        -ms-filter: grayscale(100%); 
+        -o-filter: grayscale(100%); 
+        filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);  
+        _filter:none;} 
+
+/*------头部 header------S*/
+#header{
+	margin-top: -16px;
+    height: 180px;
+	background: url(../image/headerbg.jpg) scroll no-repeat 50% 0;
+	background-color: #f9f9f9;}
+/*---headerTop---S*/
+#headerTop{
+    position: relative;
+	overflow: hidden;
+	font-size: 12px;
+	height: 32px;
+	line-height: 32px;
+	background-color: #676767;
+	opacity:0.9;}
+#headerTop .wrap>ul>li{
+	padding:1px\9;}
+#logo{
+    height: 120px;}
+#logo img{
+	width: 244px;
+    height: 80px;}
+#headerTop .wrap{
+	overflow: hidden;
+	width: 1200px;
+	margin:0 auto;}
+#headerTop .wrap>ul>li,#headerTop .wrap .you .xx li,#search>ul>li{
+	float: left; 
+	color: #fff;
+	margin:0 2px;}
+#headerTop .wrap>ul>li a,#headerTop .wrap .you .xx li a,#search a{
+	color: #fff;
+	text-decoration: none;}
+#headerTop .wrap>ul>li a:hover{
+	text-decoration: underline;}
+#headerTop .wrap .you{
+	overflow: hidden;
+	float: right;}
+#headerTop .wrap .you #search{
+	padding-top: 1px\9;}
+#headerTop .wrap .you .xx{
+	overflow: hidden;
+	float: left;
+	margin-right: 20px;}
+#headerTop .wrap .you .xx li {
+	padding:1px\9;}
+#headerTop .wrap .you .xx li a:hover{
+	text-decoration: underline;}
+#search{
+	overflow: hidden;
+	float: right;
+	text-align: right;}
+#search a:hover{
+	text-decoration: underline;}
+#searchText{
+	float: left;
+	overflow: hidden;
+	width: 95px;
+	height: 32px;
+	background: url(../image/searchbg.jpg) scroll no-repeat 0 center;}
+#searchText .text{
+	float: left;
+	margin:9px 0 0 0px;
+	width:70%;
+	height: 12px;
+	border:none;
+	border-radius:15px;
+	background: none;
+	outline: none;
+	text-align: center;
+	vertical-align: middle;}
+#searchText .button{
+	float: right;
+	margin:11px 2px 0 0;
+	width: 10px;
+	height: 10px;
+	border:0;
+	outline: none;
+	background-color: none;
+	background: url(../image/icon-search.jpg) scroll no-repeat 0 0;}
+#search a{
+	color: #fff;
+	text-decoration: none;}
+#search a:hover{
+	text-decoration: underline;}
+/*---headerTop---E*/
+#logo .wrap{
+	width: 1200px;
+	margin:0 auto;
+	padding-top: 35px;}
+/*----一级导航---S*/
+#header .nav-wrap{
+	margin-top: 13px;
+	font-size: 16px;
+	background-color: #0093dd;}
+#nav{
+	width: 1200px;
+	height: 46px;
+	line-height: 46px;
+	margin:0 auto;}
+#nav>ul>li{
+	float: left;
+	letter-spacing: 1px;}
+#nav>ul>li>a{
+	display: block;
+	padding: 0 26px;
+	height: 46px;
+	line-height: 46px;
+	color: #fff;
+	text-decoration: none;}
+#nav>ul>li>a:hover{
+	color: #0093dd;
+	background-color: #fff;}
+/*---一级导航---E*/
+/*---二级菜单---S*/
+#nav>ul .firstmenu{
+    position: relative;}
+#nav>ul .firstmenu .secmenu{
+	display:none;
+	border-top: 1px solid #E3E3E3;
+ 	position:absolute;
+ 	top:46px;
+  	z-index:999;}
+#nav>ul .firstmenu .secmenu .secul{
+  	margin-top:0;
+  	padding:0;
+  	width:120px;
+  	background-color:rgba(126, 160, 177, 0.8)!important;
+  	filter:Alpha(opacity=80); background:#7ea0b1;
+  	text-align:center;}
+#nav>ul>.firstmenu .secmenu .secul a{
+    position:relative;
+    font-size: 13px;
+	display: block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;}
+#nav>ul>.firstmenu .secmenu .secul a:hover{
+	background-color: #0093dd;}
+/*---二级菜单---E*/
+/*------头部 header------E*/
+
+/*文章页列表页右边导航部分--开始*/
+#sideRight{
+	float: right;
+	width: 280px;}
+#sideRight .title{
+	padding-left: 20px;
+	font-size: 18px;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	background-color: #0093dd;}
+#sideRight ul li{
+	line-height:50px;
+	border-bottom: 1px solid #ccc;}
+#sideRight ul li a{
+	display: block;
+	padding-left:38px;
+	color: #5f5e5e;
+	text-decoration: none;}
+#sideRight ul li a:hover{
+	color: #0093dd;}
+#sideRight ul li a span{
+	float: right;
+	margin-right: 10px;}
+/*文章页列表页右边导航部分--开始*/
+
+/*------尾部 footer------S*/
+#footer{
+	color: #fff;
+	font-size: 14px;}
+#contactUs{
+	padding-top: 20px;
+    height: 120px;
+	background-color: #0093dd;}
+#contactUs .adress{
+	float: left;
+	line-height: 30px;}
+#contactUs .fd{
+	font-size: 18px;}
+#contactUs .wxwb{
+	float: left;
+	margin:22px 0 0 650px;}
+#contactUs .wxwb li{
+	position: relative;
+	float: left;
+	margin-right: 30px;}
+#contactUs .wxwb li .hov{
+	position: absolute;
+	left: -50%;
+	bottom: 60px;
+	z-index: 1000;
+	display: none;}
+#contactUs .wxwb li .hov img{
+	width:91px;
+	height:91px;}
+#contactUs .icon-logo{
+	float: right;}
+
+#copyright{
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	background-color: #006DA4;}
+
+#copyright a{color: #fff;
+	text-decoration: none;}
+#copyright a:hover{
+    text-decoration: underline;}
+#copyright .police{
+	background: url(../image/ba.jpg) scroll no-repeat;
+	padding-left: 25px;}
+/*------尾部 footer------E*/
+
+.news_font_color {
+    color :#ff0000 !important;}
+
+.news_font_bold{
+    font-weight:bold;}

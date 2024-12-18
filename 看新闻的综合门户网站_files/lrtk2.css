@@ -1,0 +1,31 @@
+/* 脌脕脠脣脥录驴芒 脣脩录炉脮没脌铆 www.lanrentuku.com */
+
+/*陆鹿碌茫脥录*/
+.focus2{position:relative;margin:0 auto; /*width:650px; height:400px;*/ width:376px;height:355px;/*background-color: #000;background-color: #fafafa;*/}  
+.focus2 img{ /*width:650px; height: 400px;*/width:376px; height: 230px;} 
+.focus2 .shadow2 .title{width: 260px; height: 65px;padding-left: 30px;padding-top: 20px;}
+.focus2 .shadow2 .title a{ text-decoration:none; color:#fff; font-size:14px; font-weight:bolder; overflow:hidden; }
+.focus2 .btn{ position:absolute; bottom:34px; left:510px; overflow:hidden; zoom:1;} 
+.focus2 .btn a{position:relative; display:inline; width:13px; height:13px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }  
+.focus2 .btn a:hover,.focus2 .btn2 a.current{  cursor:pointer;background:#fc114a;}  
+.focus2 .fPic2{ position:absolute; left:0px; top:0px; }  
+.focus2 .D1fBt2{ overflow:hidden; zoom:1;  height:16px; z-index:10;  }  
+.focus2 .shadow2{ margin-top:15px;padding:0 5px;/*width:100%;*/width:366px; position:absolute; /*bottom:0;bottom: -95px;*/ left:0px; z-index:10; /*height:38px; line-height:38px;background:rgba(0,0,0,0.6); */   
+filter:progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#80000000',endColorstr = '#80000000')\9;  display:block;  text-align:left; }  
+.focus2 .shadow2 a{margin-bottom:5px;background: url(../image/shutiao.jpg) no-repeat center left;display: inline-block;/*width: 400px;width:376px;*/width:364px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; text-decoration:none; /*color:#fff;*/ color:#000;font-size:16px;overflow:hidden; /*margin-left:15px;*/padding-left:12px; font-family: "\5FAE\8F6F\96C5\9ED1";}  
+.focus2 .shadow2 a:hover{color:#0093dd;}
+.focus2 .shadow2 p{font-size:14px;color:#525252;line-height: 25px;/*padding:0 5px;*/}
+.focus2 .fcon2{ position:relative; width:100%; float:left;  display:none; background:#000  }  
+.focus2 .fcon2 img{ display:block; }  
+.focus2 .fbg2{/*bottom:25px;right:25px;*/top:186px; right:10px; position:absolute; height:21px; text-align:center; z-index: 200; }  
+.focus2 .fbg2 div{margin:22px auto 0;overflow:hidden;zoom:1;height:14px}    
+.focus2 .D1fBt2 a{position:relative; display:inline; width:10px; height:10px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }    
+.focus2 .D1fBt2 .current,.focus2 .D1fBt2 a:hover{background:#0093dd;} /*小圆点颜色*/  
+.focus2 .D1fBt2 img{display:none}    
+.focus2 .D1fBt2 i{display:none; font-style:normal; }    
+/*.focus2 .prev2,.focus2 .next2{position:absolute;width:40px;height:74px;background: url(../images/focus_btn.png) no-repeat;}
+.focus2 .prev2{top: 50%;margin-top: -37px; left: 0;background-position:0 -74px; cursor:pointer; }  
+.focus2 .next2{top: 50%;margin-top: -37px; right: 0;  background-position:-40px -74px;  cursor:pointer;}  
+.focus2 .prev2:hover{background-position:0 0; }  
+.focus2 .next2:hover{background-position:-40px 0;}  
+*/
